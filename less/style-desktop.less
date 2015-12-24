@@ -1,0 +1,139 @@
+.body {
+	background-image: url(bg.jpg);
+	background-repeat: repeat;
+	background-size: 250px;
+}
+
+#main {
+	padding: 32px 7px 48px;
+	font-feature-settings: "onum", "pnum";
+}
+
+.logo {
+	display: block;
+	margin: 0 auto 16px;
+}
+
+.letter {
+	max-width: 480px;
+	margin: 0 auto;
+	
+	padding: 48px 40px 32px;
+	@media screen and (max-width: 420px) {
+		padding: 48px 23px 32px;
+	}
+	
+	border: @hairline;
+	border-radius: 4px;
+	background-color: fadeout(white, 45%);
+}
+
+/* Letter typography */
+.section {
+	text-indent: 2em;
+	@media screen and (max-width: 420px) {
+		text-indent: 1em;
+	}
+	
+	p {
+		text-align: justify;
+	}
+	
+	.salu,
+	.sign {
+		text-indent: 0;
+	}
+
+	.sign {
+		margin-top: 1.5em;
+		
+		margin-right: 2em;
+		@media screen and (max-width: 420px) {
+			margin-right: 1em;
+		}
+		
+		text-align: right;
+	}
+}
+
+.section-en {
+	margin-bottom: 48px;
+	line-height: 22px;
+	
+	p {
+		margin-bottom: 18px;
+	}
+}
+
+.section-cn {
+	margin-top: 48px;
+	line-height: 26px;
+	
+	@media screen and (max-width: 768px) {
+		font-family: @font-base-sans;
+	}
+	
+	
+	p {
+		margin-bottom: 16px;
+	}
+}
+/* Letter typography END */
+
+hr {
+	width: 64px;
+	height: 0;
+	margin: 0 auto;
+	border: 0;
+	border-bottom: @thinline;
+}
+
+/*--- Footer style ---*/
+.footer {
+	color: @text-sub;
+	
+	font-size: 12px;
+	@media screen and (max-width: 768px) {
+		font-family: @font-base-sans;
+		font-size: 10px;
+	}
+	
+	line-height: 1;
+	text-align: center;
+}
+
+.info {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	
+	.wing-lf,
+	.wing-rt {
+		display: inline-block;
+		width: 10em;
+	}
+	
+	.wing-lf { text-align: right; }
+	.wing-rt { text-align: left; }
+	
+	.axis {
+		font-family: "Zapf Dingbats", "Arial Unicode MS", fantasy;
+		font-size: 24px;
+		vertical-align: middle;
+	}
+}
+
+.sns {
+	margin-top: 8px;
+	line-height: 24px;
+}
+
+.sns-item+.sns-item {
+	margin-left: 16px;
+}
+
+.sns-id {
+	margin-left: 6px;
+}
+
+
+/*--- Footer style END ---*/

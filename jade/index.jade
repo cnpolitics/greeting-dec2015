@@ -1,0 +1,38 @@
+extends _template
+
+block var
+	- var pageTitl = "New Year Greeting from " + "政见 CNPolitics.org"
+	- var pageDisc = "The new year greeting letter from the CNPolitics team"
+	- var pageKeyw = "政见, CNPolitics, Chinese, politics, scholarship, greeting, new, year, letter, 2015, 2016"
+	- var bodyClass = "body"
+	//--- Fake data
+
+block bodyMain
+	#main
+		a(href="http://cnpolitics.org")
+			img.logo(src="assets/logo.png" width="146" height="56")
+		.letter
+			.section.section-en
+				include ../copy/letter-en.html
+			hr
+			.section.section-cn
+				include ../copy/letter-cn.html
+		
+		.footer
+			a(href="http://cnpolitics.org")
+				p.info
+					span.wing-lf 政见 CNPolitics.org
+					span.axis  ❄︎ 
+					span.wing-rt December 2015
+			hr
+			.sns
+				a.sns-item(href="http://weibo.com/cnpolitics")
+					i.icon.icon-wb
+					span.sns-id 政见CNPolitics
+				a.sns-item(href="https://mp.weixin.qq.com/mp/appmsg/show?__biz=MzA3NDIyNTcxNA==&appmsgid=10000224&itemidx=1&sign=594885af8344a6c0dc73b6b776186ea7")
+					i.icon.icon-wx
+					span.sns-id 政见
+				a.sns-item(href="https://www.facebook.com/cnpolitics")
+					i.icon.icon-fb
+					span.sns-id 政見CNPolitics
+			
