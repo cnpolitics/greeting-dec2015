@@ -1,3 +1,8 @@
+::selection {
+	color: @bg-main;
+	background-color: @cnp-red;
+}
+
 .body {
 	background-image: url(bg.jpg);
 	background-repeat: repeat;
@@ -6,15 +11,18 @@
 
 #main {
 	padding: 32px 7px 48px;
-	font-feature-settings: "onum", "pnum";
+	font-feature-settings: "onum", "pnum", "kern", "liga";
 }
 
 .logo {
+	position: relative;
 	display: block;
 	margin: 0 auto 16px;
+	user-select: none;
 }
 
 .letter {
+	position: relative;
 	max-width: 480px;
 	margin: 0 auto;
 	
@@ -30,9 +38,9 @@
 
 /* Letter typography */
 .section {
-	text-indent: 2em;
+	text-indent: 32px;
 	@media screen and (max-width: 420px) {
-		text-indent: 1em;
+		text-indent: 16px;
 	}
 	
 	p {
@@ -45,11 +53,11 @@
 	}
 
 	.sign {
-		margin-top: 1.5em;
+		margin-top: 48px;
 		
-		margin-right: 2em;
+		margin-right: 32px;
 		@media screen and (max-width: 420px) {
-			margin-right: 1em;
+			margin-right: 16px;
 		}
 		
 		text-align: right;
@@ -57,8 +65,9 @@
 }
 
 .section-en {
+	font-size: 17px;
 	margin-bottom: 48px;
-	line-height: 22px;
+	line-height: 23px;
 	
 	p {
 		margin-bottom: 18px;
@@ -68,6 +77,7 @@
 .section-cn {
 	margin-top: 48px;
 	line-height: 26px;
+	font-feature-settings: "pnum", "kern", "liga";
 	
 	@media screen and (max-width: 768px) {
 		font-family: @font-base-sans;
@@ -110,6 +120,7 @@ hr {
 	.wing-rt {
 		display: inline-block;
 		width: 10em;
+		vertical-align: -1px;
 	}
 	
 	.wing-lf { text-align: right; }
@@ -119,21 +130,26 @@ hr {
 		font-family: "Zapf Dingbats", "Arial Unicode MS", fantasy;
 		font-size: 24px;
 		vertical-align: middle;
+		user-select: none;
 	}
 }
 
 .sns {
 	margin-top: 8px;
 	line-height: 24px;
+	user-select: none;
 }
 
 .sns-item+.sns-item {
 	margin-left: 16px;
 }
 
+.sns-icon {
+	vertical-align: -5px;
+}
+
 .sns-id {
 	margin-left: 6px;
 }
-
 
 /*--- Footer style END ---*/

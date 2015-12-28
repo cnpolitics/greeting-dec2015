@@ -11,6 +11,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/app.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/app.js",
+		"outputAbbreviatedPath": "\/assets\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/apple-touch-icon-120.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -116,14 +127,14 @@
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/copy\/letter-cn.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/copy\/letter-cn.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
@@ -146,18 +157,27 @@
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/copy\/letter-en.md",
 		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/copy\/letter-en.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/index-edm.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index-edm.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -190,6 +210,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/index-edm.jade": {
+		"compileDebug": 0,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/index-edm.jade",
+		"outputAbbreviatedPath": "\/index-edm.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/jade\/index.jade": {
 		"compileDebug": 0,
 		"fileType": 512,
@@ -200,83 +231,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/javascript\/_app.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/_app.js",
-		"outputAbbreviatedPath": "\/javascript\/min\/_app-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/javascript\/_libs.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/_libs.js",
-		"outputAbbreviatedPath": "\/javascript\/min\/_libs-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/javascript\/han-haoyc.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/han-haoyc.js",
-		"outputAbbreviatedPath": "\/javascript\/min\/han-haoyc-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/javascript\/main.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/main.js",
-		"outputAbbreviatedPath": "\/javascript\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/javascript\/vendor\/doT.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/vendor\/doT.min.js",
-		"outputAbbreviatedPath": "\/javascript\/vendor\/min\/doT.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/javascript\/vendor\/fastclick.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/vendor\/fastclick.js",
-		"outputAbbreviatedPath": "\/javascript\/vendor\/min\/fastclick-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/javascript\/vendor\/jquery.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/javascript\/vendor\/jquery.min.js",
-		"outputAbbreviatedPath": "\/javascript\/vendor\/min\/jquery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/less\/_define.less": {
 		"allowInsecureImports": 0,
@@ -358,26 +312,6 @@
 		"strictMath": 1,
 		"strictUnits": 1
 		},
-	"\/less\/style-mobile.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 1,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/style-mobile.less",
-		"outputAbbreviatedPath": "\/assets\/style-mobile.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 1,
-		"strictUnits": 1
-		},
 	"\/less\/vendor\/normalize.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 1,
@@ -398,15 +332,6 @@
 		"strictMath": 1,
 		"strictUnits": 1
 		},
-	"\/portal.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/portal.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -414,7 +339,7 @@
 		"enableSmartQuotes": 1,
 		"escapeLineBreaks": 0,
 		"fileType": 4096,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"maskEmailAddresses": 1,
@@ -427,6 +352,26 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/typescript\/app.ts": {
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"fileType": 128,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/typescript\/app.ts",
+		"jsxMode": 0,
+		"minifyOutput": 1,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 1,
+		"outputAbbreviatedPath": "\/assets\/app.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"preserveConstEnums": 0,
+		"removeComments": 1,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 1
 		}
 	},
 "hooks": [
@@ -1006,7 +951,7 @@
 	"lessStrictImports": 0,
 	"lessStrictMath": 1,
 	"lessStrictUnits": 1,
-	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathEnabled": 0,
 	"markdownAutoOutputPathFilenamePattern": "*.html",
 	"markdownAutoOutputPathRelativePath": "",
 	"markdownAutoOutputPathReplace1": "",
@@ -1019,7 +964,7 @@
 	"markdownEscapeLineBreaks": 0,
 	"markdownMaskEmailAddresses": 1,
 	"markdownOutputFormat": 0,
-	"markdownOutputStyle": 0,
+	"markdownOutputStyle": 1,
 	"markdownParseMetadata": 1,
 	"markdownProcessHTML": 0,
 	"markdownRandomFootnoteNumbers": 0,

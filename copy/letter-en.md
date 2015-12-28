@@ -1,4 +1,4 @@
-<p class="salu">Dear Professor Jian Zheng,</p>
+<p class="salu">Dear Professor<span id="la-salu"></span>,</p>
 
 We, the CNPolitics team, are writing to thank you for lending us generous support in the past, and to send our best wishes for the new year. It has been a great honor for us to present to the Chinese audience your scholarly work and insights. We hope to continue doing so in the future, as we strive to introduce quality social science research to the Chinese general public.
 

@@ -7,11 +7,14 @@ block var
 	- var bodyClass = "body"
 	//--- Fake data
 
+block headScripts
+
 block bodyMain
 	#main
-		a(href="http://cnpolitics.org")
-			img.logo(src="assets/logo.png" width="146" height="56")
+		img.logo(src="assets/logo.png" width="146" height="56")
 		.letter
+			a(href="http://cnpolitics.github.io/greeting-dec2015/")
+				p.fallback(style="font-size:12px;color:rgba(0,0,0,.4);text-align:center;padding:0px 4px 16px 4px") View in browser
 			.section.section-en
 				include ../copy/letter-en.html
 			hr
@@ -35,4 +38,5 @@ block bodyMain
 				a.sns-item(href="https://www.facebook.com/cnpolitics")
 					i.sns-icon.icon-fb
 					span.sns-id 政見CNPolitics
-			
+
+block bodyScripts
