@@ -48,7 +48,7 @@
 	// console.log(addr.zhFullName);
 	
 	if (addr.laFirsName) laSalu = ' ' + addr.laFirsName;
-	if (addr.laLastName) laSalu = ' ' + addr.laLastName;
+	if (addr.laLastName) laSalu = laSalu + ' ' + addr.laLastName;
 	if (addr.zhFullName) zhSalu = addr.zhFullName;
 	
 	addr.fillSalu(laSalu, 'la-salu');
