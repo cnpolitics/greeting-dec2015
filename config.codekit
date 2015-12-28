@@ -312,26 +312,6 @@
 		"strictMath": 1,
 		"strictUnits": 1
 		},
-	"\/less\/style-mobile.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 1,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/less\/style-mobile.less",
-		"outputAbbreviatedPath": "\/assets\/style-mobile.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 1,
-		"strictUnits": 1
-		},
 	"\/less\/vendor\/normalize.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 1,
