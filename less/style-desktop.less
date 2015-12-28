@@ -1,3 +1,8 @@
+::selection {
+	color: @bg-main;
+	background-color: @cnp-red;
+}
+
 .body {
 	background-image: url(bg.jpg);
 	background-repeat: repeat;
@@ -10,11 +15,14 @@
 }
 
 .logo {
+	position: relative;
 	display: block;
 	margin: 0 auto 16px;
+	user-select: none;
 }
 
 .letter {
+	position: relative;
 	max-width: 480px;
 	margin: 0 auto;
 	
@@ -122,12 +130,14 @@ hr {
 		font-family: "Zapf Dingbats", "Arial Unicode MS", fantasy;
 		font-size: 24px;
 		vertical-align: middle;
+		user-select: none;
 	}
 }
 
 .sns {
 	margin-top: 8px;
 	line-height: 24px;
+	user-select: none;
 }
 
 .sns-item+.sns-item {
